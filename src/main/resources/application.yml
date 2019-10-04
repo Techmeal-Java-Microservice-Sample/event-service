@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: event-service
+  profiles:
+    active:
+    - dev
+    
+server:
+  port: 9072
+  servlet:
+    context-path: /event-service
+
+         
